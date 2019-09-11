@@ -1,17 +1,14 @@
 # DevSig
-DevSig observes relevant habits as you interact with your machine. These habits include
-how often you type on Slack, how often you type on Jira, how often you have your cameras on when on a Zoom call.
-The purpose of this is to better understand engineers' habits with the end goal of being able to recommend
-habits that may lead to success.
+The goal of DevSig is to help engineers and their managers know whether they’re meeting standards for an engagement, and allow them to self-correct before a partner churns.
 
-To use DevSig, you install it globally on your machine, get it started, and proceed to use your machine as you'd normally
-use it. DevSig keeps running in the background, observing relevant habits, and keeping a log of its observations
-locally on your machine. **DevSig never sends any data to any party.**
+DevSig observes relevant habits as you interact with your machine. Some of these habits include: how often you type on Slack, how often you type on Jira, how often you have your cameras on when on a Zoom call, among others.
+The purpose is to better understand engineers' habits with the end goal of being able to recommend habits or behaviors that increase chances for success.
 
-You can generate reports of these recorded observations in order to have an idea of the habits you exhibit
-as you work on your machine.
+To use DevSig, you install it globally on your machine, get it started, and proceed to use your machine as you'd normally use it. DevSig keeps running in the background, observing relevant habits, and keeping a log of its observations locally on your machine. **DevSig never sends any data to any party. All data is stored on your local machine.**
 
-**Again, DevSig never sends any data to any party. All observations are logged locally.**
+You can generate reports of these recorded observations in order to have an idea of your habit over time, and to provide evidence to your manager of the good work that you're doing.
+
+**Again, this information is never shared or uploaded anywhere, it stays in a local log file on your computer. Nobody can view this information but you.**
 
 ## Getting Started
 - Install globally `npm install --global devsig`
